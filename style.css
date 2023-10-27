@@ -1,0 +1,73 @@
+/* Стили для горизонтального меню */
+.horizontal-menu {
+    background-color: #333;
+}
+
+.horizontal-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.horizontal-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+}
+.horizontal-menu a:hover {
+    text-decoration: none;
+    color: blue;
+    font-size: 36px;
+}
+
+/* Стили для вертикального меню */
+.vertical-menu {
+    background-color: #333;
+}
+
+.vertical-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-menu li {
+    margin-bottom: 10px;
+}
+
+.vertical-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Стили для галереи картинок */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    max-width: 300px;
+    margin: 10px;
+}
+
+/* Дополнительные стили для выравнивания и отступов */
+h1, p {
+    text-align: center;
+    margin: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+
+/* Остальные стили по вашему усмотрению */
